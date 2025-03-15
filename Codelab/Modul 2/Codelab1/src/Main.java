@@ -1,3 +1,17 @@
+class Hewan { // untuk class hewan
+    String nama;
+    String jenis;
+    String suara;
+
+
+    void tampilkaninfo() { // untuk menampilkan kepada user
+        System.out.println("Nama: " + nama);
+        System.out.println("Jenis: " + jenis);
+        System.out.println("Suara: " + suara);
+
+    }
+}
+
 public class Main{ // untuk class main
     public static void main(String[] args) {
         Hewan hewan1 = new Hewan();  // membuat objek baru pada kelas hewan
