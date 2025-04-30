@@ -11,18 +11,17 @@ public class User {
         return nama;
     }
 
-    public String setNama(String nama){
+    public void setNama(String nama){
         this.nama = nama;
-        return nama;
+
     }
 
     public String getNim(){
         return nim;
     }
 
-    public String setNim(String nim){
+    public void setNim(String nim){
         this.nim = nim;
-        return nim;
     }
 
     void login(String nama, String nim){
