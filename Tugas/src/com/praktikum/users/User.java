@@ -27,7 +27,7 @@ public abstract class  User{
     }
 
     public abstract boolean login(String nama, String nim);
-    public abstract void displayAppMenu();
+    public abstract void displayAppMenu(java.util.Scanner scan);
     public void displayInfo(){
     }
 }
